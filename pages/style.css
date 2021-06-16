@@ -1,0 +1,165 @@
+body {	
+	font-family: Roboto, Arial, sans-serif;
+ 	background-color: #8cc6ec; 
+ 	background-image:
+    linear-gradient(
+  	to bottom right, 
+ 	#8cc6ec 20%, #9599e2);
+  	background-repeat: no-repeat; 
+ 	background-attachment: fixed;
+}
+form{
+	margin-top: 25%;
+	position: relative;
+    transform: translateY(-45%);
+	justify-content: center;
+	display: flex;	
+}
+input{
+	box-sizing: border-box; 
+	height: 45px;
+	background: transparent;
+	border: none;
+}
+input > .Droite, .Gauche,.Width {
+	width: 100%;
+}
+input:focus {
+    outline: none;
+}
+select {
+	height: 45px;
+	outline: none;
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: solid 1px;
+}
+button {		
+	border: none;
+	background-color: white;
+	border-radius: 50px;
+	padding: 15px;
+	width: 150px;
+}
+
+button:focus {
+	outline: none;
+}
+a {
+	color: white;
+}
+.titleField_1 {
+	color : #2d72b0;
+}
+.titleField_2 {
+	color : white;
+}
+#field_1 {
+	border-top-left-radius: 2%;
+	border-bottom-left-radius: 2%;
+	padding: 40px;
+	background-color: #ffffff;
+	width: 350px;
+	height: 450px;
+}
+
+#field_1 input::placeholder {
+	font-size: 13px;
+	color: grey;
+}
+#field_1 select {
+	font-size: 14px;
+	border-bottom: solid 1px #8b8b8b;
+	color: grey;
+}
+
+#field_1 input {
+	color: #8b8b8b;
+	border-bottom: solid 1px #8b8b8b;
+}
+#field_2 {
+	border-top-right-radius: 2%;
+	border-bottom-right-radius: 2%;
+	padding: 40px;
+	background-color: #4935d4;
+	width: 350px;
+	height: 450px;	
+}
+#field_2 input::placeholder {
+	font-size: 14px;
+	color: #beb9f5;
+}
+#field_2 input {	
+	color: #beb9f5;
+}
+#field_2 select {
+	font-size: 14px;
+	color: #beb9f5;
+	border-bottom: solid 1px #6655e1;
+}
+
+#field_2 option {
+	background-color: #4935d4;
+}
+.Droite {
+	width: 35%;
+	float: right;
+}
+.Gauche {
+	width: 60%;
+}
+.inputLastName{	
+	width: 40%;
+	float: right;
+}
+.inputName {
+	width: 55%;
+}
+.inputNumber {	
+	width: 75%;
+	float: right;
+}
+.inputCode{
+	width: 20%;
+	border-bottom: solid 1px #6655e1;
+}
+#containerCheckButton {
+	font-size: 14px;
+	color: #beb9f5;
+	display: flex;
+	height: 50px;	
+}
+#containerCheckButton p{
+	margin-top: 2px;
+}
+.Droite22 {
+	border-bottom: solid 1px #6655e1;
+}
+#CheckButton {
+	margin-right: 5px;
+    display: flex;
+}
+#Text {
+	margin-top: 3px;
+	margin-left: 5px;
+}
+input[type=radio] {
+    width: 15px;
+    height: 16px;
+    appearance: none;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+input[type=radio]:checked {
+    border: 2px solid #4935D4;
+    background-color:white;
+    padding: 5px;
+    box-shadow: 0 0 0 0.1em white;
+    outline: none;
+    transition: 0.2s all linear;
+}
+.selectAndInputStyle {
+	border-bottom: solid 1px #6655e1;
+}
